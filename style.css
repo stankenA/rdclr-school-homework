@@ -403,4 +403,43 @@ template {
 }
 .hero__link:hover {
   opacity: 0.7;
+}
+
+.features {
+  background-color: var(--light);
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.features__wrapper {
+  width: var(--content-width);
+  margin: 0 auto;
+}
+.features__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.features__item {
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.features__subtitle {
+  color: var(--gold);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin: 0;
+}
+.features__txt {
+  color: #2E323F;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
