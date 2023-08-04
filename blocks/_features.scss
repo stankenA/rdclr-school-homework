@@ -3,6 +3,11 @@
   padding-top: 64px;
   padding-bottom: 64px;
 
+  @media screen and (max-width: 767px) {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
   &__wrapper {
     width: var(--content-width);
     margin: 0 auto;
@@ -12,6 +17,12 @@
     @include reset-list;
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 1023px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
   }
 
   &__item {
@@ -19,6 +30,15 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+
+    @media screen and (max-width: 1439px) {
+      width: 250px;
+    }
+
+    @media screen and (max-width: 1023px) {
+      width: 100%;
+      gap: 16px;
+    }
   }
 
   &__subtitle {

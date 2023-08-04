@@ -4,4 +4,8 @@
   --light: #F1F1F1;
   --gold: #A59678;
   --content-width: 1312px;
+
+  @media screen and (max-width: 1439px) {
+    --content-width: 86%;
+  }
 }
