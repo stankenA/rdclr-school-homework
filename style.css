@@ -314,4 +314,42 @@ template {
   --light: #F1F1F1;
   --gold: #A59678;
   --content-width: 1312px;
+}
+
+.page {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  min-height: 88px;
+  background-color: var(--header-dark);
+  display: flex;
+  align-items: center;
+}
+.header__wrapper {
+  width: var(--content-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header__link {
+  text-decoration: none;
+  color: unset;
+  transition: all 0.4s ease;
+  color: var(--light);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.header__link:hover {
+  opacity: 0.7;
 }/*# sourceMappingURL=style.css.map */

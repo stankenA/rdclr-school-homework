@@ -1,0 +1,14 @@
+@mixin reset-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin transition($time: .4s) {
+  transition: all $time ease;
+}
+
+@mixin reset-link {
+  text-decoration: none;
+  color: unset;
+}
